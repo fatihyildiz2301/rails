@@ -1,0 +1,5 @@
+<h1>Fatih Yildiz</h1>
+<h2>Rails ortam degişkenleri</h2>
+<% request.env.each do |key, value| %>
+ <strong><%= key %></strong> => <%= value %><br/>
+<% end %>
